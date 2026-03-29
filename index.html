@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nishu Raj | Portfolio</title>
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Hero -->
+  <header>
+    <div class="hero container">
+      <div class="hero-text">
+        <h1>Hello, I'm <span class="name">Nishu Raj</span></h1>
+        <p class="typing-text">Data Analytics | Python | SQL | Excel</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">Contact Me</a>
+          <a href="resume.pdf" download class="btn-secondary">Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="use.jpeg" alt="Nishu Raj">
+      </div>
+    </div>
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="section-box about-text">
+  <h2>💡 About Me</h2>
+  <p>
+    I’m a dedicated and passionate Data Analytics professional with a strong foundation in extracting, interpreting, and presenting meaningful insights from data. I hold a Bachelor’s degree in Computer Applications (BCA, Class of 2025), where I developed a keen interest in leveraging data to solve real-world problems and support informed decision-making.
+  </p>
+  <p>
+    I am deeply committed to my craft and continually strive to improve through self-learning and practical projects. With a strong analytical mindset and attention to detail, I aim to begin my career as a Data Analyst, contributing to impactful data-driven solutions in a dynamic professional environment.
+  </p>
+
+  <h3>🛠️ Key Skills & Tools</h3>
+  <div class="skills-grid">
+    <div class="skill-item">Excel 🟦</div>
+    <div class="skill-item">Python 🐍</div>
+    <div class="skill-item">Power BI 📊</div>
+    <div class="skill-item">MySQL 🐬</div>
+  </div>
+
+  <h3>🎓 Certifications</h3>
+  <ul class="education-list">
+    <li>Data Analytics course -  
+    <a href="YOUR_CERTIFICATE_LINK_HERE" target="_blank">
+    TuteDude
+  </a>
+</li>
+    <li>Tableau Foundation Course – 
+    <a href="https://intellipaat.com/academy/certificate-link/?Yz0xODY4JnU9MzMxNDkzJmV4dD0x" target="_blank">
+    Intellipaat
+  </a>
+</li>
+<li>Power BI for Beginners – 
+    <a href="https://certificates.simplicdn.net/share/9952730_8597810_1773318330587.pdf" target="_blank">
+    Simplilearn
+  </a>
+</li>
+    <li>Programming with python:Introduction for Beginners – 
+    <a href="https://drive.google.com/file/d/1vESdFFEeffEUdjlZynDT3OfYBVuD34PU/view" target="_blank">
+     upGrad
+  </a>
+</li>
+  </ul>
+</div>
+
+  <!-- Projects Section -->
+<section id="projects" class="section projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="project-list">
+
+     <a href="https://niss-hhh.github.io/customer_behavior_analysis/" target="_blank" class="project-card">
+  <h3>Customer Behaviour Analysis</h3>
+  <p>Analysis using Python, SQL & Power BI.</p>
+</a>
+
+     <a href="https://niss-hhh.github.io/Bagicha/" target="_blank" class="project-card">
+  <h3>Online Plant Selling Website 🌱</h3>
+  <p>Built using HTML, CSS, JavaScript.</p>
+</a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Modal 1 -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h2>Customer Behaviour Analysis</h2>
+    <p><strong>Tools:</strong> Python, SQL, Power BI</p>
+    <ul>
+      <li>Cleaned dataset using Pandas</li>
+      <li>SQL queries for insights & segmentation</li>
+      <li>Built Power BI dashboards</li>
+      <li>Found patterns in customer spending</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h2>Online Plant Selling Website 🌱</h2>
+    <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+    <ul>
+      <li>Responsive multi-page website</li>
+      <li>Plant listing & UI interaction</li>
+      <li>Search & category filtering</li>
+      <li>Future scope: recommendation system</li>
+    </ul>
+  </div>
+</div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="contact-links">
+        <a href="mailto:imnishu22@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://github.com/Niss-hhh" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/nishu-raj-5958b32a3/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+      <div class="resume-section">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download class="resume-button">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Nishu Raj. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
